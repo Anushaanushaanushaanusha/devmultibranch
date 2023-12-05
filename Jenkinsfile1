@@ -1,0 +1,20 @@
+pipeline{
+    agent any
+    stages {
+        stage('main changes...') {
+            steps {
+                sh 'echo "main latest changes" '
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'echo "main applicaiton....." '
+            }
+        }
+        stage('deploy application') {
+            steps {
+                sh 'echo "deploy application........" '
+            }
+        }
+    }
+}
