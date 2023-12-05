@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages {
-        stage('main changes...') {
+        stage('main changes.') {
             steps {
                 sh 'echo "main latest changes" '
             }
